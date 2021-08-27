@@ -1,0 +1,28 @@
+{
+    "Route Template": {
+        "scope": "javascript,typescript",
+        "prefix": "route",
+        "description": "Route Template",
+        "body": [
+            "import { Request, Response } from 'express';",
+            "import Route from '../Route';",
+            "",
+            "class $1 extends Route {",
+            "    constructor() {",
+            "        super({",
+            "            name: '$2',",
+            "            type: '$3',",
+            "            url: '$4',",
+            "        });",
+            "    }",
+            "",
+            "    run(req: Request, res: Response) {",
+            "        $0",
+            "    }",
+            "}",
+            "",
+            "export default new $1();",
+            ""
+        ]
+    }
+}
