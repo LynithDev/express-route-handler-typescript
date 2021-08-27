@@ -31,3 +31,7 @@ class ExampleRoute extends Route {
 export default new ExampleRoute();
 ```
 The route **needs** to extend Route and also export an instance of itself. You then have to add a constructor which follows the `RouteOption` type.
+
+## TODO
+Routes: Make `private` option functional
+Routes: Make `redirects` option functional
